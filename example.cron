@@ -1,0 +1,8 @@
+# Monitor SHIBA's price.
+* * * * * /scripts/coin-monitor/coin-monitor.sh shiba-inu 0.00008000 0.00010000 0.00100000 0.01000000 >> /var/log/crypto/check_shiba_price.log
+
+# Monitor Proton's price.
+* * * * * sleep 10 && /scripts/coin-monitor/coin-monitor.sh proton 0.04000000 0.05000000 0.08000000 0.10000000 >> /var/log/crypto/check_proton_price.log
+
+# Monitor Dogecoin's price.
+* * * * * sleep 20 && /scripts/coin-monitor/coin-monitor.sh dogecoin 0.03000000 0.04000000 0.05000000 0.06000000 >> /var/log/crypto/check_dogecoin_price.log
