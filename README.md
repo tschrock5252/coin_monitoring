@@ -1,11 +1,11 @@
 # coin_monitoring
 
 ## Purpose
-This repository was created so I could monitor crypto locslly in my environment with a VM and get email alerts when it started to become more profitable.
+This repository was created so I could monitor crypto locally in my environment with a VM and get email alerts when it started to become more profitable.
 
-While you can technically do this with apps and alerts on your phone, the apps get overloaded from time to time and I've also found they have some interesting ways of manipulating the price. 
+While you can technically do this with apps and alerts on your phone, the apps get overloaded from time-to-time and I've also found they have some interesting ways of manipulating the price. 
 
-The data crypto.com shows seems accurate (on page load), but I think they play with their prices using their javascript and other tools to manipulate the market a bit.
+The data crypto.com shows seems accurate (on page load), but I think they play with prices using their javascript and other tools to manipulate the market a bit.
 
 I wanted that fluctuation taken out of the equation with my purchasing decision(s). 
 
