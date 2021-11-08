@@ -18,7 +18,7 @@
         COIN_EMAIL_COUNTER_FILE_4="${COIN_TRACKING_DIR}/${1}_email_counter4.${TODAYS_DATE}.txt";
         touch "${COIN_EMAIL_COUNTER_FILE_1}" && touch "${COIN_EMAIL_COUNTER_FILE_2}" && touch "${COIN_EMAIL_COUNTER_FILE_3}" && touch "${COIN_EMAIL_COUNTER_FILE_4}";
         COIN_URL="https://crypto.com/price/${1}";
-        EMAIL_TO="tschrock52@gmail.com";
+        EMAIL_TO="someone@somewhere.com";    # Configure this appropriately. This is where alerts will be sent to when prices surge.
         sendmail=$(command -v sendmail);
     }
 
