@@ -5,7 +5,6 @@
         TODAYS_DATE=$(date +"%m-%d-%Y");
         TODAYS_DATE_WITH_SECONDS=$(date +"%m-%d-%Y - %H:%M:%S");
         COIN_TRACKING_DIR="/tmp/${1}_tracking";
-		echo "Coin tracking dir is ${COIN_TRACKING_DIR}";
         COIN_LOGS="/var/log/tyler/${1}";
         mkdir -p "${COIN_TRACKING_DIR}";
         mkdir -p "${COIN_LOGS}";
