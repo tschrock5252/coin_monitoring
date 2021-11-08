@@ -20,7 +20,7 @@ You will have to dedicate a VM or some form of infrastructure to this. I am sure
 I am running this at present on an Ubuntu 20.04.3 VM and am having no issues with the configuration. YMMV on other operating systems.
 
 ### Cron Daemon
-You will need to configure a cron job to execute the [check_coin_price.sh](https://github.com/tschrock5252/coin_monitoring/blob/master/scripts/coin-monitoring/coin-monitoring.sh) script on a consistent basis.
+You will need to configure a cron job to execute the [coin-monitor.sh](https://github.com/tschrock5252/coin_monitoring/blob/master/scripts/coin-monitor/coin-monitor.sh) script on a consistent basis.
 
 I am running this multiple times per minute on staggered cron jobs to pull data at a _**VERY**_ consistent basis.
 
