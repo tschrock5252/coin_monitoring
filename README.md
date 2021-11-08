@@ -29,7 +29,7 @@ An example cron is set up in this repository for you to view at the following lo
 ### Script(s)
 This project's heart is currently built into a script that lives within the repository at [./scripts/coin-monitor/coin-monitor.sh](https://github.com/tschrock5252/coin_monitoring/blob/master/scripts/coin-monitor/coin-monitor.sh)
 
-You will need to set this up in order for this project to be a success. The script will create the required directories for everything each coin you are monitoring to run successfully.
+You will need to set this up in order for this project to be a success. The script will create the required directories and temporary / logging files needed for each coin you are monitoring. With this in mind, everything should run successfully and without error (YMMV).
 
 #### Configurable Variables
 The script has a large number of variables that you can configure and change if you want to.
